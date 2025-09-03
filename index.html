@@ -99,6 +99,7 @@
                 <li><a href="#about" class="text-gray-400 hover:text-[#2dd4bf] transition duration-300">About</a></li>
                 <li><a href="#experience" class="text-gray-400 hover:text-[#2dd4bf] transition duration-300">Experience</a></li>
                 <li><a href="#projects" class="text-gray-400 hover:text-[#2dd4bf] transition duration-300">Projects</a></li>
+                <li><a href="#open-source" class="text-gray-400 hover:text-[#2dd4bf] transition duration-300">Open Source</a></li>
                 <li><a href="#contact" class="text-gray-400 hover:text-[#2dd4bf] transition duration-300">Contact</a></li>
             </ul>
         </nav>
@@ -112,7 +113,7 @@
                 <div class="max-w-3xl">
                     <p class="text-lg text-[#2dd4bf] font-medium mb-2 reveal" style="transition-delay: 100ms;">Hi, my name is</p>
                     <h1 class="text-5xl md:text-7xl font-extrabold text-white leading-tight reveal" style="transition-delay: 200ms;">Adithi Srinath.</h1>
-                    <h2 class="text-4xl md:text-6xl font-extrabold text-gray-400 leading-tight mt-2 reveal" style="transition-delay: 300ms;">I love solving complex problems and building things!</h2>
+                    <h2 class="text-4xl md:text-6xl font-extrabold text-gray-400 leading-tight mt-2 reveal" style="transition-delay: 300ms;">AI Researcher, Software Engineer & Open Source Contributor.</h2>
                     <p class="mt-8 text-lg max-w-xl text-gray-400 reveal" style="transition-delay: 400ms;">
                         I'm an AI researcher and software engineer specializing in bridging the gap between scalable systems and generative AI. Currently exploring multimodal AI on high-performance computing systems at Texas A&M.
                     </p>
@@ -146,8 +147,8 @@
                         </div>
                     </div>
                     <div class="md:col-span-2 flex justify-center items-center reveal">
-                        <div class="w-64 h-64 md:w-80 md:h-80 rounded-full bg-gray-800 border-4 border-[#2dd4bf] shadow-2xl shadow-[#2dd4bf]/20 flex items-center justify-center">
-                           <p class="text-gray-500 text-center p-4">Your professional headshot here</p>
+                        <div class="w-64 h-64 md:w-80 md:h-80 rounded-full bg-gray-800 border-4 border-[#2dd4bf] shadow-2xl shadow-[#2dd4bf]/20 overflow-hidden">
+                           <img src="https://firebasestorage.googleapis.com/v0/b/gemini-a6b12.appspot.com/o/uploaded%3Aimage_441e92.jpg-ce451418-d26d-4f6d-b923-7792de2bda12?alt=media&token=c2d58548-c923-455a-bb8d-d79075ce869b" alt="Adithi Srinath Headshot" class="w-full h-full object-cover object-center">
                         </div>
                     </div>
                 </div>
@@ -199,60 +200,300 @@
             <div class="container mx-auto px-6">
                 <h2 class="text-3xl font-extrabold text-white text-center mb-16 reveal">Featured <span class="text-[#2dd4bf]">Projects</span></h2>
                 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                    <!-- Project Card 1 -->
+                    <!-- Project Card: EA Block Scheduling System -->
                     <div class="project-card bg-gray-800/50 rounded-lg shadow-lg overflow-hidden flex flex-col border border-gray-700 transform hover:-translate-y-2 transition-all duration-300 reveal">
+                        <div class="p-6 flex-grow flex flex-col">
+                            <div class="flex justify-between items-center mb-4">
+                               <i class='bx bxs-calendar text-4xl text-[#2dd4bf]'></i>
+                               <div class="flex space-x-4 text-2xl">
+                                   <a href="https://github.com/adithis197?tab=repositories" target="_blank" class="text-gray-400 hover:text-[#2dd4bf]"><i class='bx bxl-github'></i></a>
+                               </div>
+                            </div>
+                            <h3 class="text-2xl font-bold text-white mb-2">EA Block Scheduling System</h3>
+                            <h4 class="text-sm text-gray-400 mb-4">(Engineering Academies Across Texas - Ongoing: Fall 2024 - Present)</h4>
+                            <p class="text-gray-400 mb-4 flex-grow">Collaborated to design and implement a scalable block scheduling system for engineering academies using Ruby on Rails, deployed on Heroku with advanced concurrency techniques.</p>
+                            <div class="flex flex-wrap gap-2">
+                                <span class="bg-gray-700 text-gray-300 px-3 py-1 rounded-full text-sm">Ruby on Rails</span>
+                                <span class="bg-gray-700 text-gray-300 px-3 py-1 rounded-full text-sm">Heroku</span>
+                                <span class="bg-gray-700 text-gray-300 px-3 py-1 rounded-full text-sm">Agile</span>
+                                <span class="bg-gray-700 text-gray-300 px-3 py-1 rounded-full text-sm">TDD</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project Card: Secure Chat Application -->
+                    <div class="project-card bg-gray-800/50 rounded-lg shadow-lg overflow-hidden flex flex-col border border-gray-700 transform hover:-translate-y-2 transition-all duration-300 reveal" style="transition-delay: 100ms;">
+                        <div class="p-6 flex-grow flex flex-col">
+                           <div class="flex justify-between items-center mb-4">
+                               <i class='bx bxs-message-dots text-4xl text-[#2dd4bf]'></i>
+                               <div class="flex space-x-4 text-2xl">
+                                   <a href="https://github.com/adithis197?tab=repositories" target="_blank" class="text-gray-400 hover:text-[#2dd4bf]"><i class='bx bxl-github'></i></a>
+                               </div>
+                            </div>
+                            <h3 class="text-2xl font-bold text-white mb-2">Secure Chat Application</h3>
+                            <h4 class="text-sm text-gray-400 mb-4">(Modified RSA Cryptosystem)</h4>
+                            <p class="text-gray-400 mb-4 flex-grow">Developed a secure chat application by implementing a modified RSA algorithm with multiple keys for encryption and the Chinese Remainder Theorem (CRT) for decryption.</p>
+                            <div class="flex flex-wrap gap-2">
+                                <span class="bg-gray-700 text-gray-300 px-3 py-1 rounded-full text-sm">Python</span>
+                                <span class="bg-gray-700 text-gray-300 px-3 py-1 rounded-full text-sm">Cryptography</span>
+                                <span class="bg-gray-700 text-gray-300 px-3 py-1 rounded-full text-sm">RSA</span>
+                                <span class="bg-gray-700 text-gray-300 px-3 py-1 rounded-full text-sm">CRT</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project Card: Brain Tumor Prediction -->
+                    <div class="project-card bg-gray-800/50 rounded-lg shadow-lg overflow-hidden flex flex-col border border-gray-700 transform hover:-translate-y-2 transition-all duration-300 reveal" style="transition-delay: 200ms;">
+                        <div class="p-6 flex-grow flex flex-col">
+                           <div class="flex justify-between items-center mb-4">
+                               <i class='bx bxs-brain text-4xl text-[#2dd4bf]'></i>
+                               <div class="flex space-x-4 text-2xl">
+                                   <a href="https://github.com/adithis197?tab=repositories" target="_blank" class="text-gray-400 hover:text-[#2dd4bf]"><i class='bx bxl-github'></i></a>
+                               </div>
+                            </div>
+                            <h3 class="text-2xl font-bold text-white mb-2">Brain Tumor Prediction</h3>
+                            <h4 class="text-sm text-gray-400 mb-4">(Hybrid Vision Transformer)</h4>
+                            <p class="text-gray-400 mb-4 flex-grow">Innovated a hybrid architecture combining sequence pooling with Swin Transformer for brain tumor prediction, achieving 2-3% higher accuracy than state-of-the-art models.</p>
+                            <div class="flex flex-wrap gap-2">
+                                <span class="bg-gray-700 text-gray-300 px-3 py-1 rounded-full text-sm">Vision Transformer</span>
+                                <span class="bg-gray-700 text-gray-300 px-3 py-1 rounded-full text-sm">Swin Transformer</span>
+                                <span class="bg-gray-700 text-gray-300 px-3 py-1 rounded-full text-sm">MRI Analysis</span>
+                                <span class="bg-gray-700 text-gray-300 px-3 py-1 rounded-full text-sm">Machine Learning</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Original Project Card 1: AI Multidisciplinary Research -->
+                    <div class="project-card bg-gray-800/50 rounded-lg shadow-lg overflow-hidden flex flex-col border border-gray-700 transform hover:-translate-y-2 transition-all duration-300 reveal" style="transition-delay: 300ms;">
                         <div class="p-6 flex-grow flex flex-col">
                             <div class="flex justify-between items-center mb-4">
                                <i class='bx bxs-folder-open text-4xl text-[#2dd4bf]'></i>
                                <div class="flex space-x-4 text-2xl">
-                                   <a href="#" target="_blank" class="text-gray-400 hover:text-[#2dd4bf]"><i class='bx bxl-github'></i></a>
+                                   <a href="https://github.com/adithis197?tab=repositories" target="_blank" class="text-gray-400 hover:text-[#2dd4bf]"><i class='bx bxl-github'></i></a>
                                </div>
                             </div>
                             <h3 class="text-2xl font-bold text-white mb-2">AI Multidisciplinary Research</h3>
                             <p class="text-gray-400 mb-4 flex-grow">A GPU-accelerated pipeline for synchronized video and audio synthesis using Stable Diffusion, MusicGen, and custom ComfyUI nodes.</p>
                             <div class="flex flex-wrap gap-2">
-                                <span class="text-gray-400 text-sm font-mono">Python</span>
-                                <span class="text-gray-400 text-sm font-mono">ComfyUI</span>
-                                <span class="text-gray-400 text-sm font-mono">Stable Diffusion</span>
+                                <span class="bg-gray-700 text-gray-300 px-3 py-1 rounded-full text-sm">Python</span>
+                                <span class="bg-gray-700 text-gray-300 px-3 py-1 rounded-full text-sm">ComfyUI</span>
+                                <span class="bg-gray-700 text-gray-300 px-3 py-1 rounded-full text-sm">Stable Diffusion</span>
                             </div>
                         </div>
                     </div>
-                    <!-- Project Card 2 -->
-                    <div class="project-card bg-gray-800/50 rounded-lg shadow-lg overflow-hidden flex flex-col border border-gray-700 transform hover:-translate-y-2 transition-all duration-300 reveal" style="transition-delay: 200ms;">
-                        <div class="p-6 flex-grow flex flex-col">
-                           <div class="flex justify-between items-center mb-4">
-                               <i class='bx bxs-folder-open text-4xl text-[#2dd4bf]'></i>
-                               <div class="flex space-x-4 text-2xl">
-                                   <a href="#" target="_blank" class="text-gray-400 hover:text-[#2dd4bf]"><i class='bx bxl-github'></i></a>
-                               </div>
-                            </div>
-                            <h3 class="text-2xl font-bold text-white mb-2">Totally Recall</h3>
-                            <p class="text-gray-400 mb-4 flex-grow">An AI-powered cross-platform memory aid using Gemini AI and FSRS spaced repetition for personalized cognitive support.</p>
-                            <div class="flex flex-wrap gap-2">
-                                <span class="text-gray-400 text-sm font-mono">Gemini AI</span>
-                                <span class="text-gray-400 text-sm font-mono">Django</span>
-                                <span class="text-gray-400 text-sm font-mono">Flutter</span>
-                                <span class="text-gray-400 text-sm font-mono">AWS</span>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Project Card 3 -->
+                    <!-- Original Project Card 2: Totally Recall -->
                     <div class="project-card bg-gray-800/50 rounded-lg shadow-lg overflow-hidden flex flex-col border border-gray-700 transform hover:-translate-y-2 transition-all duration-300 reveal" style="transition-delay: 400ms;">
                         <div class="p-6 flex-grow flex flex-col">
                            <div class="flex justify-between items-center mb-4">
                                <i class='bx bxs-folder-open text-4xl text-[#2dd4bf]'></i>
                                <div class="flex space-x-4 text-2xl">
-                                   <a href="#" target="_blank" class="text-gray-400 hover:text-[#2dd4bf]"><i class='bx bxl-github'></i></a>
+                                   <a href="https://github.com/NaviGaze-Link" target="_blank" class="text-gray-400 hover:text-[#2dd4bf]"><i class='bx bxl-github'></i></a>
+                               </div>
+                            </div>
+                            <h3 class="text-2xl font-bold text-white mb-2">Totally Recall</h3>
+                            <p class="text-gray-400 mb-4 flex-grow">An AI-powered cross-platform memory aid using Gemini AI and FSRS spaced repetition for personalized cognitive support.</p>
+                            <div class="flex flex-wrap gap-2">
+                                <span class="bg-gray-700 text-gray-300 px-3 py-1 rounded-full text-sm">Gemini AI</span>
+                                <span class="bg-gray-700 text-gray-300 px-3 py-1 rounded-full text-sm">Django</span>
+                                <span class="bg-gray-700 text-gray-300 px-3 py-1 rounded-full text-sm">Flutter</span>
+                                <span class="bg-gray-700 text-gray-300 px-3 py-1 rounded-full text-sm">AWS</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Original Project Card 3: KraftMind AI -->
+                    <div class="project-card bg-gray-800/50 rounded-lg shadow-lg overflow-hidden flex flex-col border border-gray-700 transform hover:-translate-y-2 transition-all duration-300 reveal" style="transition-delay: 500ms;">
+                        <div class="p-6 flex-grow flex flex-col">
+                           <div class="flex justify-between items-center mb-4">
+                               <i class='bx bxs-folder-open text-4xl text-[#2dd4bf]'></i>
+                               <div class="flex space-x-4 text-2xl">
+                                   <a href="https://github.com/adithis197?tab=repositories" target="_blank" class="text-gray-400 hover:text-[#2dd4bf]"><i class='bx bxl-github'></i></a>
                                </div>
                             </div>
                             <h3 class="text-2xl font-bold text-white mb-2">KraftMind AI</h3>
                             <p class="text-gray-400 mb-4 flex-grow">A cloud-native GenAI pipeline for schema-aware synthetic data generation using AWS Bedrock, SageMaker, and fine-tuned GANs.</p>
                             <div class="flex flex-wrap gap-2">
-                                <span class="text-gray-400 text-sm font-mono">AWS Bedrock</span>
-                                <span class="text-gray-400 text-sm font-mono">SageMaker</span>
-                                <span class="text-gray-400 text-sm font-mono">GANs</span>
+                                <span class="bg-gray-700 text-gray-300 px-3 py-1 rounded-full text-sm">AWS Bedrock</span>
+                                <span class="bg-gray-700 text-gray-300 px-3 py-1 rounded-full text-sm">SageMaker</span>
+                                <span class="bg-gray-700 text-gray-300 px-3 py-1 rounded-full text-sm">GANs</span>
                             </div>
                         </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Open Source Contributions Section -->
+        <section id="open-source" class="py-24 bg-[#0f172a]">
+            <div class="container mx-auto px-6">
+                <h2 class="text-3xl font-extrabold text-white text-center mb-16 reveal">Open Source <span class="text-[#2dd4bf]">Contributions</span></h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+                    <!-- ComfyUI Node 1 -->
+                    <div class="project-card bg-gray-800/50 rounded-lg shadow-lg overflow-hidden flex flex-col border border-gray-700 transform hover:-translate-y-2 transition-all duration-300 reveal">
+                        <div class="p-6 flex-grow flex flex-col">
+                            <div class="flex justify-between items-center mb-4">
+                                <i class='bx bxs-cube text-4xl text-[#2dd4bf]'></i>
+                                <div class="flex space-x-4 text-2xl">
+                                    <a href="https://registry.comfy.org/publishers/adithis197/nodes/caption_to_audio" target="_blank" class="text-gray-400 hover:text-[#2dd4bf]"><i class='bx bx-link-external'></i></a>
+                                </div>
+                            </div>
+                            <h3 class="text-2xl font-bold text-white mb-2">ComfyUI: Caption to Audio Node</h3>
+                            <p class="text-gray-400 mb-4 flex-grow">Developed a custom ComfyUI node that transforms image captions into music prompts using LLaMA-3.2-3B for multimodal generation workflows.</p>
+                            <div class="flex flex-wrap gap-2">
+                                <span class="bg-gray-700 text-gray-300 px-3 py-1 rounded-full text-sm">ComfyUI</span>
+                                <span class="bg-gray-700 text-gray-300 px-3 py-1 rounded-full text-sm">LLaMA-3.2-3B</span>
+                                <span class="bg-gray-700 text-gray-300 px-3 py-1 rounded-full text-sm">Multimodal AI</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ComfyUI Node 2 -->
+                    <div class="project-card bg-gray-800/50 rounded-lg shadow-lg overflow-hidden flex flex-col border border-gray-700 transform hover:-translate-y-2 transition-all duration-300 reveal" style="transition-delay: 200ms;">
+                        <div class="p-6 flex-grow flex flex-col">
+                            <div class="flex justify-between items-center mb-4">
+                                <i class='bx bxs-cube text-4xl text-[#2dd4bf]'></i>
+                                <div class="flex space-x-4 text-2xl">
+                                    <a href="https://registry.comfy.org/publishers/adithis197/nodes/multimodal-captiontovideogen" target="_blank" class="text-gray-400 hover:text-[#2dd4bf]"><i class='bx bx-link-external'></i></a>
+                                </div>
+                            </div>
+                            <h3 class="text-2xl font-bold text-white mb-2">ComfyUI: Multimodal Caption to Video Gen Node</h3>
+                            <p class="text-gray-400 mb-4 flex-grow">Created a custom ComfyUI node focused on converting captions to video, contributing to synchronized video+audio synthesis pipelines.</p>
+                            <div class="flex flex-wrap gap-2">
+                                <span class="bg-gray-700 text-gray-300 px-3 py-1 rounded-full text-sm">ComfyUI</span>
+                                <span class="bg-gray-700 text-gray-300 px-3 py-1 rounded-full text-sm">Generative AI</span>
+                                <span class="bg-gray-700 text-gray-300 px-3 py-1 rounded-full text-sm">Video Synthesis</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education" class="py-24">
+            <div class="container mx-auto px-6">
+                <h2 class="text-3xl font-extrabold text-white text-center mb-16 reveal">My <span class="text-[#2dd4bf]">Education</span></h2>
+                <div class="max-w-3xl mx-auto space-y-12">
+                    <div class="bg-gray-800/50 p-6 rounded-lg shadow-lg border border-gray-700 reveal">
+                        <h3 class="text-xl font-bold text-[#2dd4bf]">Masters in Computer Science</h3>
+                        <h4 class="font-semibold text-white mb-1">Texas A&M University, College Station, Texas</h4>
+                        <p class="text-sm text-gray-400 mb-2">August 2024 - May 2026</p>
+                        <p class="text-gray-400">CGPA: 4.0</p>
+                        <p class="text-gray-400 text-sm mt-2">Relevant Courses: Software Engineering, Machine Learning, Deep Learning, Information Storage and Retrieval, Distributed Systems and Cloud Computing, Analysis of Algorithms</p>
+                    </div>
+                    <div class="bg-gray-800/50 p-6 rounded-lg shadow-lg border border-gray-700 reveal" style="transition-delay: 150ms;">
+                        <h3 class="text-xl font-bold text-[#2dd4bf]">B.Tech. in Computer Science (With Honours)</h3>
+                        <h4 class="font-semibold text-white mb-1">National Institute Of Technology, Karnataka</h4>
+                        <p class="text-sm text-gray-400 mb-2">July 2018 - May 2022</p>
+                        <p class="text-gray-400">CGPA: 8.86/10, Honours CGPA: 9.8/10</p>
+                        <p class="text-gray-400 text-sm mt-2">Relevant Courses: DSA, DBMS, OOPS, Linear Algebra, OS, Advanced Networking, Distributed and Parallel systems, ML, AI</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="py-24 bg-[#0f172a]">
+            <div class="container mx-auto px-6">
+                <h2 class="text-3xl font-extrabold text-white text-center mb-16 reveal">Technical <span class="text-[#2dd4bf]">Skills</span></h2>
+                <div class="max-w-4xl mx-auto flex flex-wrap justify-center gap-4">
+                    <div class="bg-gray-800/50 p-4 rounded-lg border border-gray-700 reveal">
+                        <h3 class="text-xl font-bold text-[#2dd4bf] mb-2">Programming</h3>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="bg-gray-700 text-gray-300 px-3 py-1 rounded-full text-sm">Java</span>
+                            <span class="bg-gray-700 text-gray-300 px-3 py-1 rounded-full text-sm">Python</span>
+                            <span class="bg-gray-700 text-gray-300 px-3 py-1 rounded-full text-sm">Javascript</span>
+                            <span class="bg-gray-700 text-gray-300 px-3 py-1 rounded-full text-sm">Typescript</span>
+                            <span class="bg-gray-700 text-gray-300 px-3 py-1 rounded-full text-sm">Ruby</span>
+                            <span class="bg-gray-700 text-gray-300 px-3 py-1 rounded-full text-sm">HTML5</span>
+                            <span class="bg-gray-700 text-gray-300 px-3 py-1 rounded-full text-sm">CSS</span>
+                            <span class="bg-gray-700 text-gray-300 px-3 py-1 rounded-full text-sm">MySQL</span>
+                            <span class="bg-gray-700 text-gray-300 px-3 py-1 rounded-full text-sm">Bash</span>
+                            <span class="bg-gray-700 text-gray-300 px-3 py-1 rounded-full text-sm">C</span>
+                            <span class="bg-gray-700 text-gray-300 px-3 py-1 rounded-full text-sm">C++</span>
+                            <span class="bg-gray-700 text-gray-300 px-3 py-1 rounded-full text-sm">Web Development</span>
+                            <span class="bg-gray-700 text-gray-300 px-3 py-1 rounded-full text-sm">Unix/Linux</span>
+                        </div>
+                    </div>
+                    <div class="bg-gray-800/50 p-4 rounded-lg border border-gray-700 reveal" style="transition-delay: 100ms;">
+                        <h3 class="text-xl font-bold text-[#2dd4bf] mb-2">Frameworks</h3>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="bg-gray-700 text-gray-300 px-3 py-1 rounded-full text-sm">Spring Boot</span>
+                            <span class="bg-gray-700 text-gray-300 px-3 py-1 rounded-full text-sm">ReactJS</span>
+                            <span class="bg-gray-700 text-gray-300 px-3 py-1 rounded-full text-sm">Preact</span>
+                            <span class="bg-gray-700 text-gray-300 px-3 py-1 rounded-full text-sm">Redux</span>
+                            <span class="bg-gray-700 text-gray-300 px-3 py-1 rounded-full text-sm">WebPack</span>
+                            <span class="bg-gray-700 text-gray-300 px-3 py-1 rounded-full text-sm">Oracle JET</span>
+                            <span class="bg-gray-700 text-gray-300 px-3 py-1 rounded-full text-sm">AngularJS</span>
+                            <span class="bg-gray-700 text-gray-300 px-3 py-1 rounded-full text-sm">NodeJS</span>
+                            <span class="bg-gray-700 text-gray-300 px-3 py-1 rounded-full text-sm">Rails</span>
+                        </div>
+                    </div>
+                    <div class="bg-gray-800/50 p-4 rounded-lg border border-gray-700 reveal" style="transition-delay: 200ms;">
+                        <h3 class="text-xl font-bold text-[#2dd4bf] mb-2">Technologies & Cloud</h3>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="bg-gray-700 text-gray-300 px-3 py-1 rounded-full text-sm">REST APIs</span>
+                            <span class="bg-gray-700 text-gray-300 px-3 py-1 rounded-full text-sm">GraphQL</span>
+                            <span class="bg-gray-700 text-gray-300 px-3 py-1 rounded-full text-sm">Redis</span>
+                            <span class="bg-gray-700 text-gray-300 px-3 py-1 rounded-full text-sm">Docker</span>
+                            <span class="bg-gray-700 text-gray-300 px-3 py-1 rounded-full text-sm">Kubernetes</span>
+                            <span class="bg-gray-700 text-gray-300 px-3 py-1 rounded-full text-sm">Grafana</span>
+                            <span class="bg-gray-700 text-gray-300 px-3 py-1 rounded-full text-sm">Kibana</span>
+                            <span class="bg-gray-700 text-gray-300 px-3 py-1 rounded-full text-sm">ElasticSearch</span>
+                            <span class="bg-gray-700 text-gray-300 px-3 py-1 rounded-full text-sm">JEST</span>
+                            <span class="bg-gray-700 text-gray-300 px-3 py-1 rounded-full text-sm">Git</span>
+                            <span class="bg-gray-700 text-gray-300 px-3 py-1 rounded-full text-sm">CI/CD</span>
+                            <span class="bg-gray-700 text-gray-300 px-3 py-1 rounded-full text-sm">RabbitMQ</span>
+                            <span class="bg-gray-700 text-gray-300 px-3 py-1 rounded-full text-sm">Kafka</span>
+                            <span class="bg-gray-700 text-gray-300 px-3 py-1 rounded-full text-sm">ArgoCD</span>
+                            <span class="bg-gray-700 text-gray-300 px-3 py-1 rounded-full text-sm">JMeter</span>
+                            <span class="bg-gray-700 text-gray-300 px-3 py-1 rounded-full text-sm">Langchain</span>
+                            <span class="bg-gray-700 text-gray-300 px-3 py-1 rounded-full text-sm">Hugging Face</span>
+                            <span class="bg-gray-700 text-gray-300 px-3 py-1 rounded-full text-sm">Pinecone</span>
+                            <span class="bg-gray-700 text-gray-300 px-3 py-1 rounded-full text-sm">Streamlit</span>
+                            <span class="bg-gray-700 text-gray-300 px-3 py-1 rounded-full text-sm">TensorFlow</span>
+                            <span class="bg-gray-700 text-gray-300 px-3 py-1 rounded-full text-sm">PyTorch</span>
+                            <span class="bg-gray-700 text-gray-300 px-3 py-1 rounded-full text-sm">CoreFlow</span>
+                            <span class="bg-gray-700 text-gray-300 px-3 py-1 rounded-full text-sm">Sklearn</span>
+                            <span class="bg-gray-700 text-gray-300 px-3 py-1 rounded-full text-sm">API Design</span>
+                            <span class="bg-gray-700 text-gray-300 px-3 py-1 rounded-full text-sm">AWS</span>
+                            <span class="bg-gray-700 text-gray-300 px-3 py-1 rounded-full text-sm">GCP</span>
+                            <span class="bg-gray-700 text-gray-300 px-3 py-1 rounded-full text-sm">OCI</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Publications & Achievements Section -->
+        <section id="publications" class="py-24">
+            <div class="container mx-auto px-6">
+                <h2 class="text-3xl font-extrabold text-white text-center mb-16 reveal">Publications & <span class="text-[#2dd4bf]">Achievements</span></h2>
+                <div class="max-w-3xl mx-auto space-y-8">
+                    <div class="bg-gray-800/50 p-6 rounded-lg shadow-lg border border-gray-700 reveal">
+                        <h3 class="text-xl font-bold text-[#2dd4bf]">Spot Award from Oracle</h3>
+                        <p class="text-gray-400">Awarded in July 2023 for crucial feature development contributions before the product’s launch, demonstrating significant impact and dedication.</p>
+                    </div>
+                    <div class="bg-gray-800/50 p-6 rounded-lg shadow-lg border border-gray-700 reveal" style="transition-delay: 100ms;">
+                        <h3 class="text-xl font-bold text-[#2dd4bf]">IEEE ASIAN CONF. 2021</h3>
+                        <p class="text-gray-400">Published paper on "Distributed Data Management Ecosystem for Intelligent Transportation Systems using Blockchain," proposing a 6-layered ecosystem architecture for ITS-BCT applications.</p>
+                    </div>
+                    <div class="bg-gray-800/50 p-6 rounded-lg shadow-lg border border-gray-700 reveal" style="transition-delay: 200ms;">
+                        <h3 class="text-xl font-bold text-[#2dd4bf]">IEEE ICCCNT</h3>
+                        <p class="text-gray-400">Published research paper on 'Predictive Analytics and Data Mining in Healthcare,' demonstrating HIT advancements and machine learning for proactive chronic kidney disease prediction. Developed a specialized classifier, emphasizing tailored approaches for complex healthcare datasets.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Extra Curriculars Section -->
+        <section id="extracurriculars" class="py-24 bg-[#0f172a]">
+            <div class="container mx-auto px-6">
+                <h2 class="text-3xl font-extrabold text-white text-center mb-16 reveal">Extra <span class="text-[#2dd4bf]">Curriculars</span></h2>
+                <div class="max-w-3xl mx-auto space-y-8 text-gray-400 text-lg">
+                    <div class="bg-gray-800/50 p-6 rounded-lg shadow-lg border border-gray-700 reveal">
+                        <p>Served as **CR (Class Representative) for CSE branch for 3+ years** while being an active member of the Students’ council.</p>
+                    </div>
+                    <div class="bg-gray-800/50 p-6 rounded-lg shadow-lg border border-gray-700 reveal" style="transition-delay: 100ms;">
+                        <p>Part of **Dance Crew Genesis NITK**. Took part in inter-NIT dance competitions and was responsible for the committee organizing world hip hop championship auditions.</p>
                     </div>
                 </div>
             </div>
